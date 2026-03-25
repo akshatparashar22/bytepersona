@@ -1,0 +1,15 @@
+.pixel-text {
+    background: linear-gradient(90deg,
+            #fff200 0%,
+            #ffd000 20%,
+            #ffb300 40%,
+            #ff9500 60%,
+            #ff7b00 80%,
+            #ff5e00 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* makes it look more “pixel harsh” instead of smooth */
+    image-rendering: pixelated;
+}
